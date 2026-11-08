@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Catalog Studio</title><link rel="stylesheet" href="/static/styles.css"><script src="/static/app.js" defer></script></head>
+<body>
+<aside class="sidebar"><a class="brand" href="/" aria-label="Catalog Studio home"><span class="brand-icon">c<span>↗</span></span><span>Catalog<br>Studio<span class="brand-dot">.</span></span></a>
+<p class="nav-label">WORKSPACE</p><nav aria-label="Main navigation"><button class="nav-item active" data-view="catalog"><span>▦</span> Product catalog <small id="catalog-count">0</small></button><button class="nav-item" data-view="review"><span>◈</span> Review queue <small id="review-count">0</small></button><button class="nav-item" data-view="activity"><span>↺</span> Run history</button></nav>
+<div class="side-bottom"><div class="side-note"><span class="status-dot"></span> Approval comes first<p>Your agent proposes.<br>You stay in control.</p></div><button id="settings-button" class="nav-item"><span>⚙</span> Connections & mode</button><button id="account-button" class="account"><span class="avatar" id="avatar">CS</span><span id="account-name">Your workspace</span><span>↗</span></button></div></aside>
+<div class="shell"><header class="topbar"><div class="breadcrumb">Workspace <span>/</span> <strong id="breadcrumb">Product catalog</strong></div><div class="top-actions"><span id="mode-badge" class="pill">Demo workspace</span><button class="button small" id="auth-button">Sign in</button></div></header>
+<main id="main"><div class="page-heading"><div><p class="eyebrow">THE EVERYDAY, BETTER</p><h1>Your catalog.<br><span>With a little more clarity.</span></h1><p class="intro">Turn product details into thoughtful improvements.<br>Review the evidence. Approve what makes sense.</p></div><div class="heading-art" aria-hidden="true"><div class="orbit"></div><span class="art-spark">✳</span><div class="art-tag">GOOD PRODUCTS.<br>BETTER DETAILS.<span>↗</span></div></div></div>
+<div id="content"></div>
+<footer><span>CATALOG STUDIO</span><span>Catalog review and change history</span><span>LOCAL WORKSPACE</span></footer></main></div>
+<div id="toast" role="status" aria-live="polite" hidden></div>
+<dialog id="modal"><button class="close" id="close-modal" aria-label="Close dialog">×</button><div id="modal-content"></div></dialog>
+</body></html>
